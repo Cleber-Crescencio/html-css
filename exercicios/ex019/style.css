@@ -1,0 +1,42 @@
+@charset "utf-8";
+/*
+id = # - apenas 1
+class = . - use qntos necessarios
+*/
+body{
+    background-color: #F5F0DC;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+    color: #2A2FF4;
+}
+
+h1#principal{
+    background-color: #F5150C;
+    color: #F5F0DC;
+    text-align: center;
+}
+
+h2{
+    color: #F5C700;
+}
+
+p{
+    color: black;
+}
+
+.basico{
+    color: lawngreen;
+
+}
+
+.intermediario{
+    color: #F5C700;
+}
+
+.avancado{
+    color: #F5150C;
+
+}
