@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 98vh;
+    background-color: rgb(255, 255, 255);
+}
+
+@keyframes gira {
+    to{
+        transform: rotate(360deg) ;
+    }
+}
+
+.circulo{
+    margin: 50px auto;
+    padding: 10px;
+    border: 15px solid green;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-top: 15px solid transparent;
+    background-position: center center;
+    animation: gira .9s infinite;
+}
+
+.circulo#cir1{
+    border: 15px solid red;
+    border-top: 15px solid transparent;
+}
+
+.circulo#cir2{
+    border: 15px solid yellow;
+    border-top-color:transparent;
+}
+
+
