@@ -17,9 +17,24 @@
             border: 1px solid black;
             padding: 10px;
         }
-        thead {
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        thead, tfoot {
             background-color: gray;
             color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
         td.num{
             text-align: right;
@@ -158,9 +173,13 @@
         <tfoot>
             <tr>
                 <th scope="row">Total de habitantes</th>
-                <td><strong>207 750 291</strong></td>
+                <td class="num"><strong>207 750 291</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae veniam, dolor consequuntur impedit nihil eos neque delectus perspiciatis illum fugit voluptatem, mollitia praesentium animi? Ratione tenetur eum quisquam veniam aliquam?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio quaerat eius beatae. Odit natus, expedita voluptatem unde deleniti aliquam aperiam adipisci libero incidunt explicabo similique exercitationem. Voluptatum reiciendis repellat maiores. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse optio soluta aperiam velit rem id labore non. Ipsum suscipit cum quis laudantium nam culpa aliquam, modi, dignissimos, fuga aut nesciun. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis provident in blanditiis quae deserunt animi alias cumque veniam quibusdam nobis architecto omnis, totam, molestias magni minima ea ex at dolore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nam repellendus totam possimus necessitatibus magni inventore quae a. Facilis fugit ad neque dolores cum mollitia, necessitatibus cupiditate ratione voluptates voluptatem?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, natus! Quam architecto in quasi recusandae dignissimos quis repellat, quas praesentium cumque! Dolor quas voluptas consequuntur nesciunt nulla quae corporis. Expedita!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae veniam, dolor consequuntur impedit nihil eos neque delectus perspiciatis illum fugit voluptatem, mollitia praesentium animi? Ratione tenetur eum quisquam veniam aliquam?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio quaerat eius beatae. Odit natus, expedita voluptatem unde deleniti aliquam aperiam adipisci libero incidunt explicabo similique exercitationem. Voluptatum reiciendis repellat maiores. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse optio soluta aperiam velit rem id labore non. Ipsum suscipit cum quis laudantium nam culpa aliquam, modi, dignissimos, fuga aut nesciun. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis provident in blanditiis quae deserunt animi alias cumque veniam quibusdam nobis architecto omnis, totam, molestias magni minima ea ex at dolore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nam repellendus totam possimus necessitatibus magni inventore quae a. Facilis fugit ad neque dolores cum mollitia, necessitatibus cupiditate ratione voluptates voluptatem?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, natus! Quam architecto in quasi recusandae dignissimos quis repellat, quas praesentium cumque! Dolor quas voluptas consequuntur nesciunt nulla quae corporis. Expedita!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae veniam, dolor consequuntur impedit nihil eos neque delectus perspiciatis illum fugit voluptatem, mollitia praesentium animi? Ratione tenetur eum quisquam veniam aliquam?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio quaerat eius beatae. Odit natus, expedita voluptatem unde deleniti aliquam aperiam adipisci libero incidunt explicabo similique exercitationem. Voluptatum reiciendis repellat maiores. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse optio soluta aperiam velit rem id labore non. Ipsum suscipit cum quis laudantium nam culpa aliquam, modi, dignissimos, fuga aut nesciun. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis provident in blanditiis quae deserunt animi alias cumque veniam quibusdam nobis architecto omnis, totam, molestias magni minima ea ex at dolore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, nam repellendus totam possimus necessitatibus magni inventore quae a. Facilis fugit ad neque dolores cum mollitia, necessitatibus cupiditate ratione voluptates voluptatem?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit, natus! Quam architecto in quasi recusandae dignissimos quis repellat, quas praesentium cumque! Dolor quas voluptas consequuntur nesciunt nulla quae corporis. Expedita!</p>
+
 </body>
 </html>
